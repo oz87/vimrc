@@ -91,7 +91,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias szsh="source ~/.zshrc"
-alias tree="tree -L 2"
+alias tree="tree -L 3"
 alias ls="ls -alG"
 alias cdmamp="cd /Volumes/SSD/Applications/MAMP/htdocs/"
 alias cdpro="cd /Volumes/HDD/Projects/"
