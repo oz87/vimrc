@@ -1,5 +1,9 @@
+# Brew NPM fix - https://gist.github.com/rcugut/c7abd2a425bb65da3c61d8341cd4b02d
+export NPM_PACKAGES="/usr/local/npm_packages"
+export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
+
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/opt/node@8/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/opt/node@8/bin:$NPM_PACKAGES/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/ozanerel/.oh-my-zsh
