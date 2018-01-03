@@ -2,9 +2,11 @@
 export NPM_PACKAGES="/usr/local/npm_packages"
 export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
 
-# Volume vars
+# Custom path vars
 export SSD="/Volumes/SSD"
 export HDD="/Volumes/HDD"
+export OZAN="$SSD/Users/ozanerel"
+
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/opt/node@8/bin:$NPM_PACKAGES/bin:$PATH
